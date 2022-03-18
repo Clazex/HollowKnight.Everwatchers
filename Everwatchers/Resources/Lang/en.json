@@ -1,0 +1,14 @@
+{
+	"Name": "Everwatchers",
+	"Desc": "Watcher gods of the ruins",
+	"Title/Super": "",
+	"Title/Main": "Everwatchers",
+	"Title/Sub": "",
+	"Option/ReanimationLevel": "Reanimation Level",
+	"Option/ShareHealth": "Share Health",
+	"Option/ModifyPantheons": "Modify Pantheons",
+	"ReanimationLevel/0": "Vanilla",
+	"ReanimationLevel/1": "Integrated",
+	"ReanimationLevel/2": "Focal",
+	"ReanimationLevel/3": "Prime"
+}

@@ -1,0 +1,14 @@
+{
+	"Name": "永恒守望者",
+	"Desc": "残垣的守望之神",
+	"Title/Super": "",
+	"Title/Main": "永恒守望者",
+	"Title/Sub": "",
+	"Option/ReanimationLevel": "复活级别",
+	"Option/ShareHealth": "共享血量",
+	"Option/ModifyPantheons": "更改门内",
+	"ReanimationLevel/0": "原版",
+	"ReanimationLevel/1": "联合",
+	"ReanimationLevel/2": "聚焦",
+	"ReanimationLevel/3": "巅峰"
+}
