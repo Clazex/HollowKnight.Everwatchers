@@ -49,7 +49,7 @@ public sealed partial class Everwatchers {
 			method = () => PlayMakerFSM.BroadcastEvent("WAKE")
 		};
 
-		var knights = EnumerableUtil.Range(1, 6)
+		var knights = new[] { 1, 2, 3, 4, 5, 6 }
 			.Map(s => "Black Knight " + s)
 			.Map(name => battleCtrl.Child(name)!)
 			.ToList();

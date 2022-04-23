@@ -2,13 +2,14 @@ global using System;
 global using System.Collections.Generic;
 global using System.Linq;
 global using System.Reflection;
-global using System.Runtime.CompilerServices;
 
-global using Everwatchers.Util;
+global using Everwatchers.Utils;
 
 global using HutongGames.PlayMaker;
 
 global using Modding;
+
+global using Osmi.Utils;
 
 global using Satchel;
 global using Satchel.Futils;

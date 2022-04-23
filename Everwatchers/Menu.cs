@@ -9,7 +9,7 @@ public sealed partial class Everwatchers : IMenuMod {
 		toggleButtonEntry!.Value,
 		new(
 			"Option/ReanimationLevel".Localize(),
-			EnumerableUtil.Range(0, 3)
+			new[] { 0, 1, 2, 3 }
 				.Map(i => $"ReanimationLevel/{i}".Localize())
 				.ToArray(),
 			"",
