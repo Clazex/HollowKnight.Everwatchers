@@ -1,3 +1,5 @@
+using Newtonsoft.Json;
+
 namespace Everwatchers;
 
 public sealed partial class Everwatchers : IGlobalSettings<GlobalSettings> {
@@ -7,8 +9,10 @@ public sealed partial class Everwatchers : IGlobalSettings<GlobalSettings> {
 }
 
 public sealed class GlobalSettings {
+	[JsonIgnore]
 	private int reanimationLevel = 0;
 
+	[JsonProperty(PropertyName = nameof(reanimationLevel))]
 	public int ReanimationLevel {
 		get => reanimationLevel;
 		set => reanimationLevel = value.Clamp(0, 3);

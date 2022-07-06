@@ -3,12 +3,10 @@ using MonoMod.ModInterop;
 namespace Everwatchers;
 
 internal static class HealthShareImport {
-#pragma warning disable CS0649
 	[ModImportName(nameof(HealthShare))]
 	private static class HealthShare {
-		public static Func<IEnumerable<GameObject>, int, string, MonoBehaviour>? ShareHealth;
+		public static Func<IEnumerable<GameObject>, int, string, MonoBehaviour>? ShareHealth = null!;
 	}
-#pragma warning restore CS0649
 
 	static HealthShareImport() =>
 		typeof(HealthShare).ModInterop();

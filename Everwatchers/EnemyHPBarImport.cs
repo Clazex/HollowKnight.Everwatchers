@@ -3,12 +3,10 @@ using MonoMod.ModInterop;
 namespace Everwatchers;
 
 internal static class EnemyHPBar {
-#pragma warning disable CS0649
 	[ModImportName(nameof(EnemyHPBar))]
 	private static class EnemyHPBarImport {
-		public static Action<GameObject>? MarkAsNonBoss;
+		public static Action<GameObject> MarkAsNonBoss = null!;
 	}
-#pragma warning restore CS0649
 
 	static EnemyHPBar() =>
 		typeof(EnemyHPBarImport).ModInterop();
