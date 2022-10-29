@@ -19,5 +19,5 @@ public sealed class GlobalSettings {
 	}
 
 	public bool shareHealth = false;
-	public bool modifyPantheons = false;
+	public bool modifyPantheons = true;
 }
